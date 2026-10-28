@@ -1,3 +1,5 @@
+from alive import keep_alive
+keep_alive()
 import os, asyncio, requests
 from datetime import datetime, timedelta
 import yfinance as yf
